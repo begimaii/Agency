@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-image: url('https://image.shutterstock.com/image-vector/kids-learning-coding-programming-online-260nw-1777292972.jpg');
+    color: white;
+    padding: 10px;
+    opacity: 0.8;
+    
+}
+button{
+    background-color: rgb(46, 43, 43);
+    border: solid 1px rgb(161, 161, 161);
+    padding: 10px;
+    color:white;
+    font-size: bold;
+
+}
+
+div {
+    margin:1%;
+   
+}
+.text-wrapper {
+    background-color: rgb(199, 196, 196);
+}
+.image-wrapper {
+    background-color: rgb(67, 66, 66);
+}
+
+.content-wrapper{
+    width: 100%;
+    padding:10px;
+    background-color: white;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.content-wrapper img {
+    width:100%;
+    height: 200px;
+}
+.footer-container {
+    margin:0;
+    padding:0;
+    height: 100px;
+}
+.contact{
+ background-color: lightblue;
+}
+.about {
+    background-color: rgb(53, 53, 53);
+    color: white;
+}
+.credits {
+    background-color:black;
+    color: white;
+}
+@media screen and ( min-width:481px) {
+    .image-wrapper{
+        display: flex;
+    }
+    .content-wrapper{ 
+        width:30%;
+  
+    }
+    .footer-container{
+        width:50%;
+        float:left;
+    }
+    .credits{
+        width:100%;
+        text-align: center;
+    }
+    
+        
+    }
+    
